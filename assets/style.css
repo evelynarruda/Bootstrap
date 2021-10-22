@@ -4,9 +4,11 @@
     background: #A0522D;
     display: flex;
     justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
   }
-  
-  body {
+
+   body {
     width: 80vw;
     display: flex;
     flex-direction: column;
