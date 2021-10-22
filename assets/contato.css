@@ -2,6 +2,7 @@ html {
     background: #A0522D;
     display: flex;
     justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
   }
   
   body {
@@ -55,17 +56,6 @@ html {
     width: 200px;
     height: 200px;
 
-}
-
-.br-20{
-    border-radius: 40%;
-    width: 95px;
-    height: 95px;
-}
-
-.wh{
-    width: 200px;
-    height: 200px;
 }
 
 .tm-social{
