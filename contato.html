@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="assets/contato.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
     </head>
 <body>
     
@@ -25,19 +25,20 @@
             <h2>Mande uma mensagem:</h2>
            <form>
               <label for="nome">Nome:</label> <br>
-              <input type="text" id="nome">
-              <div id='txtNome'></div>
+              <input type="text" id="nome" onkeyup="validaNome()">
+              <div id="txtNome"></div>
+              
               <br>
               <label for="email">E-mail:</label> <br>
-              <input type="email" id="email">
+              <input type="email" id="email" onkeyup="validaEmail()">
               <div id='txtEmail'></div>
               <br>
               <label for="assunto">Assunto:</label> <br>
-              <textarea name="assunto" id="assunto"></textarea>
+              <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
               <div id='txtAssunto'></div>
               <br>
               <br>
-              <button>Enviar</button>
+              <button onclick="enviar()">Enviar</button>
            </form>
         </div>
   
@@ -59,6 +60,6 @@
                 Todos os direitos reservados Evelyn Arruda &copy;
             </p>                 
     </footer>         
-        
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
